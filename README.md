@@ -10,7 +10,7 @@
 			cursor:  pointer;
 		}
 		tr.estilo:hover{
-			color: grey;
+			background-color: grey;
 			cursor: pointer;
 		}
 		</style>
