@@ -4,6 +4,11 @@
 	<head>
 		<title>TABLA</title>
 		<style>
+		tr.est:hover{
+			color: white;
+			background-color: black;
+			cursor:  pointer;
+		}
 		tr.estilo:hover{
 			color: grey;
 			cursor: pointer;
@@ -12,7 +17,7 @@
 	</head>
 	<body>
 	<table border=2>
-		<tr>
+		<tr class="est">
 			<td>Nombre</td>
 			<td>Edad</td>
 		</tr>
@@ -36,5 +41,6 @@
 			<td>Iván</td>
 			<td>28</td>
 		</tr>
+	</table>
 	</body>
 	</html>
